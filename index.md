@@ -58,9 +58,11 @@ title: Najoom | Coming Soon
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     min-height: 100%;
-    gap: 2rem;
+  }
+
+  .hero-spacer {
+    flex: 1;
   }
 
   .hero-brand {
@@ -77,7 +79,7 @@ title: Najoom | Coming Soon
     align-items: center;
     gap: 1.3rem;
     flex: 1;
-    min-height: 280px;
+    width: 100%;
     max-width: 720px;
     margin: 0 auto;
   }
@@ -135,13 +137,14 @@ title: Najoom | Coming Soon
 
 <div class="hero-shell">
   <div class="hero-content">
+    <div class="hero-spacer"></div>
     <div class="hero-brand">
       <img src="Name_Logo_transparent.png" alt="Najoom logo without background">
     </div>
     <div class="hero-details">
-      <div class="hero-pill">Travel abayas • Coming soon</div>
+        <div class="hero-pill">Travel abayas • Coming soon</div>
       <p class="hero-tagline">Refined essentials for graceful travel and effortless everyday elegance.</p>
-      <p class="hero-copy">We’re preparing a beautifully curated collection of travel abayas designed to feel polished, comfortable, and timeless.</p>
+      <p class="hero-copy">We’re preparing a beautifully curated collection of travel abayas designed to make travel easier while feeling polished, comfortable, and timeless.</p>
       <p class="hero-footnote">Stay tuned — our new collection is almost here.</p>
     </div>
   </div>

@@ -56,12 +56,37 @@ title: Najoom | Coming Soon
     position: relative;
     z-index: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    gap: 2rem;
+  }
+
+  .hero-brand {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .hero-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+    flex: 1;
+    min-height: 280px;
+    max-width: 720px;
+    margin: 0 auto;
   }
 
   .hero-pill {
     display: inline-block;
+    width: auto;
+    max-width: none;
     padding: 0.45rem 0.9rem;
-    margin-bottom: 1.1rem;
     border-radius: 999px;
     background: rgba(126, 88, 60, 0.12);
     color: #6f4e3b;
@@ -71,11 +96,11 @@ title: Najoom | Coming Soon
     font-weight: 600;
   }
 
-  .hero-brand {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 1.25rem;
-    max-width: 320px;
+  .hero-brand img {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    filter: drop-shadow(0 10px 24px rgba(78, 54, 35, 0.18));
   }
 
   .hero-brand img {
@@ -110,12 +135,14 @@ title: Najoom | Coming Soon
 
 <div class="hero-shell">
   <div class="hero-content">
-    <div class="hero-pill">Travel abayas • Coming soon</div>
     <div class="hero-brand">
       <img src="Name_Logo_transparent.png" alt="Najoom logo without background">
     </div>
-    <p class="hero-tagline">Refined essentials for graceful travel and effortless everyday elegance.</p>
-    <p class="hero-copy">We’re preparing a beautifully curated collection of travel abayas designed to feel polished, comfortable, and timeless.</p>
-    <p class="hero-footnote">Stay tuned — our new collection is almost here.</p>
+    <div class="hero-details">
+      <div class="hero-pill">Travel abayas • Coming soon</div>
+      <p class="hero-tagline">Refined essentials for graceful travel and effortless everyday elegance.</p>
+      <p class="hero-copy">We’re preparing a beautifully curated collection of travel abayas designed to feel polished, comfortable, and timeless.</p>
+      <p class="hero-footnote">Stay tuned — our new collection is almost here.</p>
+    </div>
   </div>
 </div>

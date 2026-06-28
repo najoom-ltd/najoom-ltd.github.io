@@ -58,11 +58,10 @@ title: Najoom | Coming Soon
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100%;
-  }
-
-  .hero-spacer {
-    flex: 1;
+    gap: 2rem;
   }
 
   .hero-brand {
@@ -78,10 +77,11 @@ title: Najoom | Coming Soon
     justify-content: space-between;
     align-items: center;
     gap: 1.3rem;
-    flex: 1;
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
+    min-height: 34vh;
+    padding-bottom: 0.5rem;
   }
 
   .hero-pill {
@@ -96,13 +96,6 @@ title: Najoom | Coming Soon
     letter-spacing: 0.18em;
     text-transform: uppercase;
     font-weight: 600;
-  }
-
-  .hero-brand img {
-    width: 100%;
-    height: auto;
-    background: transparent;
-    filter: drop-shadow(0 10px 24px rgba(78, 54, 35, 0.18));
   }
 
   .hero-brand img {
@@ -137,7 +130,6 @@ title: Najoom | Coming Soon
 
 <div class="hero-shell">
   <div class="hero-content">
-    <div class="hero-spacer"></div>
     <div class="hero-brand">
       <img src="Name_Logo_transparent.png" alt="Najoom logo without background">
     </div>

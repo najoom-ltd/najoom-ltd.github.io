@@ -28,9 +28,9 @@ title: Najoom | Coming Soon
 
   .hero-shell {
     max-width: 980px;
-    min-height: calc(100vh - 4rem);
-    margin: 2rem auto 3rem;
-    padding: 3rem 2.4rem;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2.5rem 2.4rem;
     border-radius: 32px;
     background:
       radial-gradient(circle at top left, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.45) 30%, transparent 55%),

@@ -1,1 +1,0 @@
-# najoom-ltd.github.io
